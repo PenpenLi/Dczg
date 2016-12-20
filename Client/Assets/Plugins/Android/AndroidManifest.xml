@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.GiantDream.OppaHelpMe.gameplus"
+    android:versionCode="1"
+    android:versionName="1.0.0.0" >
+
+    <uses-sdk android:minSdkVersion="4" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />  
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+  
+    <application
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name" >
+        
+        <activity
+            android:name="com.SDGame.DSHD.DSActivity"
+            android:label="@string/app_name"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" 
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		
+        <activity android:name="com.shandagames.gameplus.impl.PayActivity"
+                  android:windowSoftInputMode="adjustResize"
+                  android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.shandagames.gameplus.impl.LoadingActivity"
+                  android:theme="@android:style/Theme.Translucent" >
+        </activity>
+        <activity android:name="com.shandagames.gameplus.impl.LoginActivity"
+                  android:screenOrientation="landscape" >
+        </activity>
+        
+         <activity
+            android:name="com.snda.gsk.TouchMatrixActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+    	</activity>
+
+      <service android:name="com.SDGame.DSHD.LocalNotificationService">
+        <intent-filter>
+          <action android:name="com.SDGame.DSHD.LocalNotificationService"/>
+        </intent-filter>
+      </service>
+      
+      <!-- push -->
+      <service android:name="com.sdg.jf.sdk.push.PushService" android:exported="false">
+        <intent-filter>
+          <action android:name="com.sdg.jf.sdk.push.PushService"/>
+        </intent-filter>
+      </service>
+      <receiver android:name="com.sdg.jf.sdk.push.PushReceiver">
+        <intent-filter>
+          <action android:name="android.intent.action.BOOT_COMPLETED"/>
+          <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        <intent-filter>
+          <action android:name="com.sdg.jf.sdk.push.intent.action.PUSH_START"/>
+          <action android:name="com.sdg.jf.sdk.push.intent.action.PUSH_START_TWO"/>
+          <action android:name="com.sdg.jf.sdk.push.intent.action.PUSH_STOP"/>
+          <action android:name="com.sdg.jf.sdk.push.intent.action.PUSH_CLEAR"/>
+          <action android:name="com.sdg.jf.sdk.push.intent.action.PUSH_DO_COMMAND"/>
+          <action android:name="com.sdg.jf.sdk.push.intent.action.PUSH_SHOW_NOTIFICATION"/>
+          <action android:name="com.sdg.jf.sdk.push.intent.action.PUSH_MSG_CLICKED"/>
+          <action android:name="com.sdg.jf.sdk.push.intent.action.PUSH_PING"/>
+          <action android:name="com.sdg.jf.sdk.push.intent.action.PUSH_QUICK_START"/>
+        </intent-filter>
+      </receiver>
+      <receiver android:name="com.sdg.jf.sdk.push.network.ConnectionChangeReceiver" >
+        <intent-filter>
+          <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+        </intent-filter>
+      </receiver>
+      <activity android:name="com.sdg.jf.sdk.push.PushActivity"
+          android:theme="@style/gl_activity_translucent"
+          android:configChanges="keyboardHidden|orientation|screenSize"
+          android:launchMode="singleInstance">
+      </activity>
+      <!-- end push -->
+    	
+    	<meta-data android:name="ENV" android:value="release"/>
+		<meta-data android:name="APPLICATION_CHANNEL" android:value="GG100" />
+		<meta-data android:name="APPLICATION_KEY" android:value="791000015" />
+		<meta-data android:name="SD_UPDATE_GAMEID" android:value="22" />
+    	
+    </application>
+
+</manifest>

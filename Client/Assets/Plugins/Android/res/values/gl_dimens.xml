@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="gl_dialog_corner_radius">4dp</dimen>
+	<dimen name="gl_corner_radius">4dp</dimen>
+	<dimen name="gl_edit_height_small">30dp</dimen>
+	<dimen name="gl_edit_height">40dp</dimen>
+	<dimen name="gl_edit_height_large">60dp</dimen>
+	<dimen name="gl_edit_height_xlarge">80dp</dimen>
+	<dimen name="gl_edit_height2_small">26dp</dimen>
+	<dimen name="gl_edit_height2">32dp</dimen>
+	<dimen name="gl_edit_height2_large">48dp</dimen>
+	<dimen name="gl_edit_height2_xlarge">64dp</dimen>
+	<dimen name="gl_edit_icon_margin_small">6dp</dimen>
+	<dimen name="gl_edit_icon_margin">8dp</dimen>
+	<dimen name="gl_dialog_landscape_width">380dp</dimen>
+	<dimen name="gl_dialog_landscape_width_large">570dp</dimen>
+	<dimen name="gl_dialog_landscape_width_xlarge">760dp</dimen>
+	<dimen name="gl_dialog_portrait_width">280dp</dimen>
+	<dimen name="gl_dialog_portrait_width_large">420dp</dimen>
+	<dimen name="gl_dialog_portrait_width_xlarge">560dp</dimen>
+	<dimen name="gl_txt_height">60dp</dimen>
+	<dimen name="gl_txt_height_large">90dp</dimen>
+	<dimen name="gl_txt_height_xlarge">120dp</dimen>
+	
+	<!-- "找回密码"按钮和获取验证码"按钮的右间隔大小 -->
+	<dimen name="gl_code_margin_small">4dp</dimen>
+	<dimen name="gl_code_margin">8dp</dimen>
+	<dimen name="gl_code_margin_large">12dp</dimen>
+	<dimen name="gl_code_margin_xlarge">16dp</dimen>
+	
+	<!-- 所有的editview中的字体大小 -->
+	<dimen name="gl_edit_text_size_small">8sp</dimen>
+	<dimen name="gl_edit_text_size">16sp</dimen>
+	<dimen name="gl_edit_text_size_large">21sp</dimen>
+	<dimen name="gl_edit_text_size_xlarge">28sp</dimen>
+	
+	<!-- 一般按钮的字体大小 -->
+	<dimen name="gl_btn_text_size_small">8sp</dimen>
+	<dimen name="gl_btn_text_size">14sp</dimen>
+	<dimen name="gl_btn_text_size_large">21sp</dimen>
+	<dimen name="gl_btn_text_size_xlarge">28sp</dimen>
+	
+	<!-- "获取验证码"按钮的字体大小 -->
+	<dimen name="gl_code_btn_text_size_small">7sp</dimen>
+	<dimen name="gl_code_btn_text_size">12sp</dimen>
+	<dimen name="gl_code_btn_text_size_large">19sp</dimen>
+	<dimen name="gl_code_btn_text_size_xlarge">26sp</dimen>
+	
+	<!-- "找回密码"按钮的字体大小 -->
+	<dimen name="gl_lost_btn_text_size_small">7sp</dimen>
+	<dimen name="gl_lost_btn_text_size">12sp</dimen>
+	<dimen name="gl_lost_btn_text_size_large">19sp</dimen>
+	<dimen name="gl_lost_btn_text_size_xlarge">26sp</dimen>
+	
+	
+</resources>

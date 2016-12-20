@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/gl_dialog_landscape_width_xlarge"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gl_top_bg"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="15dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:singleLine="true"
+            android:text="@string/gl_title_activate"
+            android:textColor="@color/gl_color_title"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/gl_btn_close"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/gl_icon_back_48x48" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/gl_dialog_landscape_width_xlarge"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gl_middle_bg"
+        android:orientation="horizontal"
+        android:padding="30dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical" >
+
+            <ImageView
+		        android:layout_width="176dp"
+		        android:layout_height="176dp"
+		        android:src="@drawable/gl_logo_gplus" />
+		    <ImageView
+		        android:layout_width="176dp"
+		        android:layout_height="45dp"
+	        	android:layout_marginTop="16dp"
+		        android:src="@drawable/gl_logo_snda" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/gl_edit_height_xlarge"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/gl_edit_bg"
+			android:addStatesFromChildren="true"
+			android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="38.6dp"
+			    android:layout_height="42.6dp"
+                android:layout_marginLeft="@dimen/gl_edit_icon_margin"
+                android:layout_marginRight="@dimen/gl_edit_icon_margin"
+                android:src="@drawable/gl_icon_activate" />
+
+            <EditText
+                android:id="@+id/gl_edit_login_activate"
+                style="@style/gl_edit_text_normal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:hint="@string/gl_hint_activate_tip"
+                android:textSize="@dimen/gl_edit_text_size_xlarge" />
+
+        </LinearLayout>
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/gl_edit_height_xlarge"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            android:orientation="horizontal" >
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/gl_edit_height_xlarge"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/gl_btn_activate"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gl_btn_red"
+                android:text="@string/gl_activate"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/gl_btn_text_size_xlarge" />
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gl_bottom_bg"
+        android:gravity="center_horizontal"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" >
+
+         <TextView
+            android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+        	android:gravity="center"
+		    android:text="@string/gl_login_activate_instructions"
+            android:textColor="@color/gl_color_text_grey"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</LinearLayout>

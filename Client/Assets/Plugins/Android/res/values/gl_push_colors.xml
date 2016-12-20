@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<color name="gl_color_push_translucent">#88000000</color>
+	<color name="gl_color_push_text_grey">#919699</color>
+</resources>

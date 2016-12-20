@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- push activity dimens -->
+	<dimen name="gl_push_activity_portrait_width">280dp</dimen>
+	<dimen name="gl_push_activity_portrait_width_large">420dp</dimen>
+	<dimen name="gl_push_activity_portrait_width_xlarge">560dp</dimen>
+	
+	<dimen name="gl_push_activity_portrait_heigh">280dp</dimen>
+	<dimen name="gl_push_activity_portrait_heigh_large">420dp</dimen>
+	<dimen name="gl_push_activity_portrait_heigh_xlarge">560dp</dimen>
+	
+	<dimen name="gl_push_activity_portrait_top_heigh">50dp</dimen>
+	<dimen name="gl_push_activity_portrait_top_heigh_large">75dp</dimen>
+	<dimen name="gl_push_activity_portrait_top_heigh_xlarge">100dp</dimen>
+	
+	<dimen name="gl_push_activity_portrait_middle_heigh">190dp</dimen>
+	<dimen name="gl_push_activity_portrait_middle_heigh_large">285dp</dimen>
+	<dimen name="gl_push_activity_portrait_middle_heigh_xlarge">380dp</dimen>
+	
+	<dimen name="gl_push_activity_portrait_bottom_heigh">40dp</dimen>
+	<dimen name="gl_push_activity_portrait_bottom_heigh_large">60dp</dimen>
+	<dimen name="gl_push_activity_portrait_bottom_heigh_xlarge">80dp</dimen>
+	
+</resources>

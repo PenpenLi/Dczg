@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gl_gameplus">G家SDK开发范例</string>
+    <string name="gl_login_waitting">>登录中...请耐心等待</string>
+    <string name="gl_networkerrorinfo">无法连接服务器，请检查网络设置。</string>
+    
+	<string name="gl_login_approve_agreement">我同意接受用户协议</string>
+	<string name="gl_login_agreement_title">用户协议</string>
+
+    <string name="gl_app_name">GTSDK</string>
+	<string name="gl_gt_share">GT分享</string>
+    <string name="gl_username">手机号：</string>
+    <string name="gl_pw">密码</string>
+    <string name="gl_code">激活码：</string>
+    <string name="gl_phone">手机号码</string>
+    <string name="gl_login">登录</string>
+    <string name="gl_app_login">手机号码登录</string>
+    <string name="gl_login_register">注册&amp;登录</string>
+    <string name="gl_pay">支付(pay)</string>
+    <string name="gl_push">推送(push)</string>
+    <string name="gl_get_code">获取验证码</string>
+    <string name="gl_lost_pw">找回密码</string>
+    <string name="gl_reset_pw">重置密码</string>
+    <string name="gl_activate">激活</string>
+    <string name="gl_register">注册</string>
+    
+    <string name="gl_phone_login">手机号登录</string>
+    <string name="gl_next">下一步</string>
+    <string name="gl_hint_bind_phone">绑定手机号码</string>
+    <string name="gl_hint_pw">请输入密码</string>
+    <string name="gl_hint_code">验证码</string>
+    <string name="gl_hint_pw_tip">密码(6-15位)</string>
+    <string name="gl_hint_activate_tip">请输入激活码</string>
+    
+    <string name="gl_snda_login">盛大通行证登录</string>
+	<string name="gl_copyright">美娱(上海)有限公司</string>
+	<string name="gl_login_account_tip">您将使用手机号码注册G家平台，请保证您的手机号真实可用。</string>
+	<string name="gl_login_account_instructions">请牢记您设置的登录密码。</string>
+	<string name="gl_login_password_instructions">请使用手机号登录G家平台。</string>
+	<string name="gl_login_activate_instructions">请输入激活码激活游戏账号，本活动最终解释权归盛大游戏所有。</string>
+	<string name="gl_login_forgetpassword_instructions">您已经用该手机号码注册过G家平台，请输入新密码。</string>
+    
+    <string name="gl_waitting">请求数据...请耐心等待</string>
+    
+    <string name="gl_title_login">G家账号登录</string>
+    <string name="gl_title_register">G家账号注册</string>
+    <string name="gl_title_repwd">G家账号找回密码</string>
+    <string name="gl_title_activate">账号激活</string>
+    <string name="gl_title_home">G家平台</string>
+    
+    <string name="gl_validate">身份验证</string>
+</resources>
+

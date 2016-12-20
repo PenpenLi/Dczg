@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gl_loading_bg">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" >
+            <LinearLayout
+            android:id="@+id/gl_login_panel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="160dp"
+	        android:layout_centerHorizontal="true" >
+	        <Button
+	            android:id="@+id/gl_btn_login_gplus"
+	            android:layout_width="192dp"
+	            android:layout_height="192dp"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/gl_loading_icon_gplus" />
+	        <Button
+	            android:id="@+id/gl_btn_login_snda"
+	            android:layout_width="192dp"
+	            android:layout_height="192dp"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/gl_loading_icon_snda"
+	            android:visibility="gone" />
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/gl_agreement_panel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="12dp"
+	        android:layout_marginLeft="8dp"
+	        android:layout_below="@id/gl_login_panel"
+	        android:layout_centerHorizontal="true" >
+	
+	        <CheckBox
+	            android:id="@+id/gl_check_agreement"
+	            style="@style/gl_login_checkbox"
+	            android:layout_width="20dp"
+	            android:layout_height="20dp"
+	            android:layout_centerVertical="true"
+	            android:checked="true" />
+	
+	        <TextView
+	            android:id="@+id/gl_text_agreement"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:layout_marginTop="3dp"
+	            android:layout_toRightOf="@id/gl_check_agreement"
+	            android:text="@string/gl_login_approve_agreement"
+	            android:textColor="@android:color/white"
+	            android:textSize="32sp"/>
+	    </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp" >
+ 
+		<ImageView
+	        android:layout_width="225.4dp"
+	        android:layout_height="58.6dp"
+	        android:layout_below="@id/gl_agreement_panel"
+	         android:layout_centerHorizontal="true"
+	         android:layout_marginTop="18dp"
+	        android:src="@drawable/gl_loading_logo" />
+    </RelativeLayout>
+
+</RelativeLayout>

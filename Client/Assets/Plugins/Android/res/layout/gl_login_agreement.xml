@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="290dp"
+                android:layout_height="290dp">
+    <TextView android:id="@+id/gl_text_title"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:layout_marginTop="5dp"
+              android:textColor="@android:color/black"
+              android:text="@string/gl_login_agreement_title"
+              android:textStyle="bold"
+              android:textSize="20sp"
+              android:layout_centerHorizontal="true"
+              android:layout_alignParentTop="true"/>
+    <Button android:id="@+id/gl_button_close"
+            android:layout_height="25dp"
+            android:layout_width="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/gl_icon_close_grey"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
+    <WebView android:id="@+id/gl_web_agreement"
+             android:layout_width="270dp"
+             android:layout_height="240dp"
+             android:layout_below="@id/gl_text_title"
+             android:layout_marginTop="5dp"
+             android:layout_centerHorizontal="true"/>
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <TextView
+            android:id="@+id/gl_user_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+	    android:layout_margin="40dp"
+    	android:orientation="vertical"
+    	android:layout_centerInParent="true"
+    	android:gravity="center_horizontal">
+    	
+        <Button
+	        android:id="@+id/gl_login"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_margin="10dp"
+	    	android:text="登录游戏"
+	    	android:textColor="@android:color/white"/>
+        
+    	<Button
+	        android:id="@+id/gl_init_push"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_margin="10dp"
+	    	android:text="初始化推送"
+	    	android:textColor="@android:color/white"/>
+    	
+    	<Button
+	        android:id="@+id/gl_btn_set_push"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_margin="10dp"
+	    	android:text="设置用户信息"
+	    	android:textColor="@android:color/white"/>
+    	
+    	<Button
+	        android:id="@+id/gl_btn_push_state"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_margin="10dp"
+	    	android:text="查看推送状态"
+	    	android:textColor="@android:color/white"/>
+    	
+    	<Button
+	        android:id="@+id/gl_btn_stop_push"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_margin="10dp"
+	    	android:text="停止服务"
+	    	android:textColor="@android:color/white"/>
+    	
+    </LinearLayout>
+
+</RelativeLayout>

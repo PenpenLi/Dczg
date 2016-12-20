@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="gl_color_blue">#4994e6</color>
+	<color name="gl_color_edit_bg">#f6fafe</color>
+	<color name="gl_color_border_normal">#121212</color>
+	<color name="gl_color_border_click">#d3181c</color>
+	
+	<color name="gl_color_btn_start">#f8f8f8</color>
+	<color name="gl_color_btn_end">#f2f2f2</color>
+	<color name="gl_color_grey">#ededed</color>
+	<color name="gl_color_red">#Ff0000</color>
+	<color name="gl_color_text_grey">#919699</color>
+	<color name="gl_color_text_hint">#cfd4d8</color>
+	<color name="gl_color_title">#bfbfbf</color>
+	<color name="gl_color_text">#313131</color>
+	
+	
+	
+</resources>

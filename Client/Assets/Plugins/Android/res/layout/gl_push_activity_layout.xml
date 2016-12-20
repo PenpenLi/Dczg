@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gl_push_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="@dimen/gl_push_activity_portrait_width"
+        android:layout_height="@dimen/gl_push_activity_portrait_heigh"
+        android:layout_centerInParent="true"
+        android:focusable="true"
+        android:clickable="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/gl_push_activity_portrait_top_heigh"
+            android:background="@drawable/gl_activity_top_bg"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+            <ImageView
+                android:id="@+id/gl_push_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:id="@+id/gl_push_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:background="@null"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/gl_push_activity_portrait_middle_heigh"
+            android:layout_weight="1"
+            android:background="@drawable/gl_activity_middle_bg" >
+
+            <WebView
+                android:id="@+id/gl_push_webview"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/gl_push_activity_portrait_middle_heigh"
+                android:background="@drawable/gl_activity_middle_bg" />
+            <ProgressBar 
+                android:id="@+id/gl_push_progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/gl_push_activity_portrait_bottom_heigh"
+            android:background="@drawable/gl_activity_bottom_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" 
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/gl_btn_left"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/gl_btn_left" />
+            <TextView
+                android:id="@+id/gl_push_pages"
+ 				android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@null"
+                android:singleLine="true"
+                android:textColor="@color/gl_color_push_text_grey"
+                android:textSize="16sp"/>
+            <ImageView
+                android:id="@+id/gl_btn_right"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/gl_btn_right" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
