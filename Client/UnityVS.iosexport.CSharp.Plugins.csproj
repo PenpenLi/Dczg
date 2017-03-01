@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A9062B7-DAB2-C48C-5D79-A5F5D4323A0D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\AndroidBridge.cs" />
+    <Compile Include="Assets\Plugins\Constants.cs" />
+    <Compile Include="Assets\Plugins\GHCallback.cs" />
+    <Compile Include="Assets\Plugins\GHome.cs" />
+    <Compile Include="Assets\Plugins\GPUSH_API.cs" />
+    <Compile Include="Assets\Plugins\IOSBridge.cs" />
+    <Compile Include="Assets\Plugins\ISDKInterface.cs" />
+    <Compile Include="Assets\Plugins\JSON.cs" />
+    <Compile Include="Assets\Plugins\glucallback.cs" />
+    <Compile Include="Assets\Plugins\glupgrade.cs" />
+    <None Include="Assets\$Conf\AITable.xml" />
+    <None Include="Assets\$Conf\animation.txt" />
+    <None Include="Assets\$Conf\buff.txt" />
+    <None Include="Assets\$Conf\buffaction.txt" />
+    <None Include="Assets\$Conf\buffeffect.txt" />
+    <None Include="Assets\$Conf\config.txt" />
+    <None Include="Assets\$Conf\dmdsbattleboxconfig.boxs.txt" />
+    <None Include="Assets\$Conf\dmdscreatureconfig.itemprods.txt" />
+    <None Include="Assets\$Conf\dmdscreatureconfig.itemtemplates.txt" />
+    <None Include="Assets\$Conf\dmdscreatureconfig.itemups.txt" />
+    <None Include="Assets\$Conf\dmdscreatureconfig.monstertemplates.txt" />
+    <None Include="Assets\$Conf\dmdscreatureconfig.pettemplates.txt" />
+    <None Include="Assets\$Conf\dmdsgiftconfig.gift_dayquestboxs.txt" />
+    <None Include="Assets\$Conf\dmdsgiftconfig.gift_dayquests.txt" />
+    <None Include="Assets\$Conf\dmdsgiftconfig.gift_levels.txt" />
+    <None Include="Assets\$Conf\dmdsgiftconfig.gift_signs.txt" />
+    <None Include="Assets\$Conf\dmdslevelcardconfig.cards.txt" />
+    <None Include="Assets\$Conf\dmdslevelcardconfig.selectcards.txt" />
+    <None Include="Assets\$Conf\dmdspetexconfig.petgroups.txt" />
+    <None Include="Assets\$Conf\dmdspetexconfig.petlevels.txt" />
+    <None Include="Assets\$Conf\dmdspetexconfig.petups.txt" />
+    <None Include="Assets\$Conf\dmdsrmbconfig.pay.txt" />
+    <None Include="Assets\$Conf\dmdssapconfig.saps.txt" />
+    <None Include="Assets\$Conf\dmdsshopconfig.shop_actionpoints.txt" />
+    <None Include="Assets\$Conf\dmdsshopconfig.shop_pets.txt" />
+    <None Include="Assets\$Conf\dmdsshopconfig.shop_secrets.txt" />
+    <None Include="Assets\$Conf\dmdsshopconfig.shops.txt" />
+    <None Include="Assets\$Conf\dmdssuitconfig.suits.txt" />
+    <None Include="Assets\$Conf\dmdsworldbossconfig.worldbossbufftemplates.txt" />
+    <None Include="Assets\$Conf\dmdsworldbossconfig.worldbossinspiretemplates.txt" />
+    <None Include="Assets\$Conf\dmdsworldbossconfig.worldbossparam.txt" />
+    <None Include="Assets\$Conf\dmdsworldbossconfig.worldbosstemplates.txt" />
+    <None Include="Assets\$Conf\dmdsworldbossconfig.worldbosstimetemplates.txt" />
+    <None Include="Assets\$Conf\dmdsxactivitytemplateconfig.abysstemplates.txt" />
+    <None Include="Assets\$Conf\dmdsxactivitytemplateconfig.pttemplates.txt" />
+    <None Include="Assets\$Conf\dropmodel.txt" />
+    <None Include="Assets\$Conf\GemLevel.txt" />
+    <None Include="Assets\$Conf\group.txt" />
+    <None Include="Assets\$Conf\guide.txt" />
+    <None Include="Assets\$Conf\hair.txt" />
+    <None Include="Assets\$Conf\hitsound.txt" />
+    <None Include="Assets\$Conf\item_lang.txt" />
+    <None Include="Assets\$Conf\itemclient.txt" />
+    <None Include="Assets\$Conf\JobIcon.txt" />
+    <None Include="Assets\$Conf\layout.txt" />
+    <None Include="Assets\$Conf\level.txt" />
+    <None Include="Assets\$Conf\level_lang.txt" />
+    <None Include="Assets\$Conf\levelmeta.txt" />
+    <None Include="Assets\$Conf\levelscore.txt" />
+    <None Include="Assets\$Conf\mailhead.txt" />
+    <None Include="Assets\$Conf\militarylevel.txt" />
+    <None Include="Assets\$Conf\monster_animation.txt" />
+    <None Include="Assets\$Conf\monster_passiveaction.txt" />
+    <None Include="Assets\$Conf\monster_skillaction.txt" />
+    <None Include="Assets\$Conf\monster_skillinfo.txt" />
+    <None Include="Assets\$Conf\MonsterDependence.xml" />
+    <None Include="Assets\$Conf\moviebattle.txt" />
+    <None Include="Assets\$Conf\moviedialogue.txt" />
+    <None Include="Assets\$Conf\operation.txt" />
+    <None Include="Assets\$Conf\passiveaction.txt" />
+    <None Include="Assets\$Conf\PetDependence.xml" />
+    <None Include="Assets\$Conf\property.txt" />
+    <None Include="Assets\$Conf\PropTransfer.txt" />
+    <None Include="Assets\$Conf\pvpcost.txt" />
+    <None Include="Assets\$Conf\pvprewards.txt" />
+    <None Include="Assets\$Conf\RandomName.txt" />
+    <None Include="Assets\$Conf\reputationRewards.txt" />
+    <None Include="Assets\$Conf\rolelevels.txt" />
+    <None Include="Assets\$Conf\score.txt" />
+    <None Include="Assets\$Conf\shop.txt" />
+    <None Include="Assets\$Conf\shop_lang.txt" />
+    <None Include="Assets\$Conf\skill.txt" />
+    <None Include="Assets\$Conf\skillaction.txt" />
+    <None Include="Assets\$Conf\skilleffect.txt" />
+    <None Include="Assets\$Conf\skillinfo.txt" />
+    <None Include="Assets\$Conf\startequip.txt" />
+    <None Include="Assets\$Conf\stringtable.txt" />
+    <None Include="Assets\$Conf\summonobject.txt" />
+    <None Include="Assets\$Conf\systemlock.txt" />
+    <None Include="Assets\$Conf\titleinfo.txt" />
+    <None Include="Assets\$Conf\vip_client.txt" />
+    <None Include="Assets\$Conf\worldmappath.txt" />
+    <None Include="Assets\$Shader\Additive Turbulence.shader" />
+    <None Include="Assets\$Shader\Alpha Blended Turbulence.shader" />
+    <None Include="Assets\$Shader\Dissolve_TexturCoords.shader" />
+    <None Include="Assets\$Shader\Dissolve_WorldCoords.shader" />
+    <None Include="Assets\$Shader\Distortion.shader" />
+    <None Include="Assets\$Shader\Energy Ball.shader" />
+    <None Include="Assets\$Shader\FXMaker_Mask Additive Tint.shader" />
+    <None Include="Assets\$Shader\FXMaker_Mask Additive.shader" />
+    <None Include="Assets\$Shader\FXMaker_Mask Alpha Blended Tint.shader" />
+    <None Include="Assets\$Shader\FXMaker_Mask Alpha Blended.shader" />
+    <None Include="Assets\$Shader\FXMaker_Mask Cutout.shader" />
+    <None Include="Assets\$Shader\FXMaker_Mask_Additive_Tint_NoZTest.shader" />
+    <None Include="Assets\$Shader\SDShaders\AddOneOne.shader" />
+    <None Include="Assets\$Shader\SDShaders\AddOneOneZTest.shader" />
+    <None Include="Assets\$Shader\SDShaders\AlphaBlend.shader" />
+    <None Include="Assets\$Shader\SDShaders\AlphaBlendZTest.shader" />
+    <None Include="Assets\$Shader\SDShaders\DepthOnly.shader" />
+    <None Include="Assets\$Shader\SDShaders\SDAdditiveTint.shader" />
+    <None Include="Assets\$Shader\SDShaders\SDAlphaBlended.shader" />
+    <None Include="Assets\$Shader\SDShaders\SDAlphaBlendedTint.shader" />
+    <None Include="Assets\$Shader\SDShaders\SDEnergyBall.shader" />
+    <None Include="Assets\$Shader\SDShaders\SelfIllum.shader" />
+    <None Include="Assets\$Shader\SDShaders\SelfIllumNoFog.shader" />
+    <None Include="Assets\$Shader\SDShaders\ShaderAdditiveCulleFront.shader" />
+    <None Include="Assets\$Shader\SDShaders\ShaderAlphaBlendedFront.shader" />
+    <None Include="Assets\$Shader\SDShaders\ShaderBubbleDamage.shader" />
+    <None Include="Assets\$Shader\SDShaders\ShaderCmBlendNoLightDouble.shader" />
+    <None Include="Assets\$Shader\SDShaders\ShaderCommonBlend.shader" />
+    <None Include="Assets\$Shader\SDShaders\ShaderCommonBlendDouble.shader" />
+    <None Include="Assets\$Shader\SDShaders\ShaderCommonBlendNoLight.shader" />
+    <None Include="Assets\$Shader\SDShaders\ShaderCommonClip.shader" />
+    <None Include="Assets\$Shader\SDShaders\ShaderCommonClipDouble.shader" />
+    <None Include="Assets\$Shader\SDShaders\ShaderCommonDiffuse.shader" />
+    <None Include="Assets\$Shader\SDShaders\ShaderCommonDiffuseDouble.shader" />
+    <None Include="Assets\$Shader\SDShaders\ShaderPlayerBlend.shader" />
+    <None Include="Assets\$Shader\SDShaders\ShaderPlayerDiffuse.shader" />
+    <None Include="Assets\$Shader\SDShaders\ShaderPlayerDouble.shader" />
+    <None Include="Assets\$Shader\SDShaders\Sky.shader" />
+    <None Include="Assets\$Shader\SDShaders\StaticObject.shader" />
+    <None Include="Assets\$Shader\SDShaders\StaticObjectNoLightMap.shader" />
+    <None Include="Assets\$Shader\SDShaders\StaticTree.shader" />
+    <None Include="Assets\$Shader\SDShaders\Terrain.shader" />
+    <None Include="Assets\$Shader\SDShaders\TerrainDecal.shader" />
+    <None Include="Assets\$Shader\SDShaders\uishader\Particle Add.shader" />
+    <None Include="Assets\$Shader\SDShaders\uishader\Particle Alpha Blend.shader" />
+    <None Include="Assets\$Shader\Trail Additive Turbulence.shader" />
+    <None Include="Assets\bundleInfo.xml" />
+    <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+    <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+    <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+    <None Include="Assets\NGUI\Examples\Other\English.txt" />
+    <None Include="Assets\NGUI\Examples\Other\French.txt" />
+    <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+    <None Include="Assets\NGUI\ReadMe - 3.0.4.txt" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored (AlphaClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored (SoftClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (AlphaClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (SoftClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\res\anim\youyun_loading_icon.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_btn_code_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_btn_code_bg_click.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_btn_code_bg_normal.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_btn_left.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_btn_red.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_btn_right.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_dashed_line.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_dialog_background_white.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_edit_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_edit_bg_click.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_edit_bg_normal.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_list_item_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_list_item_bg_click.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_list_item_bg_normal.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_login_checkbox.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\gl_logindialog_background.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable-hdpi\gl_loading_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_activity_demo.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_demolayout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_activate.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_activate_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_activity.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_agreement.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_country_code_item.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_first.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_first_app.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_first_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_input_phone.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_input_phone_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_password.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_password_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_register.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_register_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_reset_password.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_login_reset_password_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_push_activity_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\gl_push_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\youyun_activity_touch_matrix.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\youyun_web_view_loading.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-480x320\gl_login_activity.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-854x480\gl_login_activity.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-large\gl_login_activate.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-large\gl_login_activate_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-large\gl_login_activity.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-large\gl_login_first.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-large\gl_login_first_app.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-large\gl_login_first_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-large\gl_login_input_phone.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-large\gl_login_input_phone_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-large\gl_login_password.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-large\gl_login_password_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-large\gl_login_register.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-large\gl_login_register_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-large\gl_login_reset_password.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-large\gl_login_reset_password_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-large\gl_push_activity_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-small\gl_login_activity.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-xlarge\gl_login_activate.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-xlarge\gl_login_activate_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-xlarge\gl_login_activity.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-xlarge\gl_login_first.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-xlarge\gl_login_first_app.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-xlarge\gl_login_first_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-xlarge\gl_login_input_phone.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-xlarge\gl_login_input_phone_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-xlarge\gl_login_password.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-xlarge\gl_login_password_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-xlarge\gl_login_register.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-xlarge\gl_login_register_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-xlarge\gl_login_reset_password.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-xlarge\gl_login_reset_password_portrait.xml" />
+    <None Include="Assets\Plugins\Android\res\layout-xlarge\gl_push_activity_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\values\gl_colors.xml" />
+    <None Include="Assets\Plugins\Android\res\values\gl_dimens.xml" />
+    <None Include="Assets\Plugins\Android\res\values\gl_push_colors.xml" />
+    <None Include="Assets\Plugins\Android\res\values\gl_push_dimens.xml" />
+    <None Include="Assets\Plugins\Android\res\values\gl_push_strings.xml" />
+    <None Include="Assets\Plugins\Android\res\values\gl_push_styles.xml" />
+    <None Include="Assets\Plugins\Android\res\values\gl_strings.xml" />
+    <None Include="Assets\Plugins\Android\res\values\gl_styles.xml" />
+    <None Include="Assets\Plugins\IOS\GHomeCore.bundle\gl_WebViewJavascriptBridge.js.txt" />
+    <None Include="Assets\Prefab\property.txt" />
+    <None Include="Assets\Resources\AppVersion.txt" />
+    <None Include="Assets\Resources\errorcode.txt" />
+    <None Include="Assets\Resources\Loading\LoadingBG.txt" />
+    <None Include="Assets\Resources\mageaction.txt" />
+    <None Include="Assets\Resources\msgbox\msgboxTxt.txt" />
+    <None Include="Assets\Resources\warrioraction.txt" />
+    <None Include="Assets\Resources\warriorActionState.txt" />
+    <None Include="Assets\UI\$chat\chat.txt" />
+    <None Include="Assets\UI\$common\common.txt" />
+    <None Include="Assets\UI\$common2\common2.txt" />
+    <None Include="Assets\UI\$ConfigWnd\ConfigWnd.txt" />
+    <None Include="Assets\UI\$FightUI\FightUI.txt" />
+    <None Include="Assets\UI\$friend\friendimg.txt" />
+    <None Include="Assets\UI\$Guide\guide.txt" />
+    <None Include="Assets\UI\$item\itemupbgimg.txt" />
+    <None Include="Assets\UI\$item\itemupimg.txt" />
+    <None Include="Assets\UI\$PVP\pvp.txt" />
+    <None Include="Assets\UI\$rankList\ranklist.txt" />
+    <None Include="Assets\UI\$result\jiesuan.txt" />
+    <None Include="Assets\UI\$role\roleimg.txt" />
+    <None Include="Assets\UI\$skill\skillimg.txt" />
+    <None Include="Assets\UI\$tip\tipimg.txt" />
+    <None Include="Assets\UI\$TownUI\town.txt" />
+    <None Include="Assets\UI\ActGame\$ActGame1\ActGame1.txt" />
+    <None Include="Assets\UI\ActGame\$LapBoss\lapboss.txt" />
+    <None Include="Assets\UI\ActGame\$WorldBoss\worldboss.txt" />
+    <None Include="Assets\UI\AwardCenter\$ACenter\ACenter.txt" />
+    <None Include="Assets\UI\AwardCenter\$Activity\Activity.txt" />
+    <None Include="Assets\UI\CharHair\$mhair1\mhair1.txt" />
+    <None Include="Assets\UI\CharHair\$mhair2\mhair2.txt" />
+    <None Include="Assets\UI\CharHair\$mhair3\mhair3.txt" />
+    <None Include="Assets\UI\CharHair\$mhair4\mhair4.txt" />
+    <None Include="Assets\UI\CharHair\$mhair5\mhair5.txt" />
+    <None Include="Assets\UI\CharHair\$mhair6\mhair6.txt" />
+    <None Include="Assets\UI\CharHair\$mhair7\mhair7.txt" />
+    <None Include="Assets\UI\CharHair\$mhair8\mhair8.txt" />
+    <None Include="Assets\UI\CharHair\$whair1\whair1.txt" />
+    <None Include="Assets\UI\CharHair\$whair2\whair2.txt" />
+    <None Include="Assets\UI\CharHair\$whair3\whair3.txt" />
+    <None Include="Assets\UI\CharHair\$whair4\whair4.txt" />
+    <None Include="Assets\UI\CharHair\$whair5\whair5.txt" />
+    <None Include="Assets\UI\CharHair\$whair6\whair6.txt" />
+    <None Include="Assets\UI\CharHair\$whair7\whair7.txt" />
+    <None Include="Assets\UI\CharHair\$whair8\whair8.txt" />
+    <None Include="Assets\UI\Icon\$icon_buff_0\buff.txt" />
+    <None Include="Assets\UI\Icon\$icon_item_0\item_0.txt" />
+    <None Include="Assets\UI\Icon\$icon_item_1\item_1.txt" />
+    <None Include="Assets\UI\Icon\$icon_item_10\item_10.txt" />
+    <None Include="Assets\UI\Icon\$icon_item_11\item_11.txt" />
+    <None Include="Assets\UI\Icon\$icon_item_2\item_2.txt" />
+    <None Include="Assets\UI\Icon\$icon_item_20\item_20.txt" />
+    <None Include="Assets\UI\Icon\$icon_item_3\item_3.txt" />
+    <None Include="Assets\UI\Icon\$icon_item_4\item_4.txt" />
+    <None Include="Assets\UI\Icon\$icon_magic_back\icon_magic_back.txt" />
+    <None Include="Assets\UI\Icon\$icon_minister_back\icon_minister_back.txt" />
+    <None Include="Assets\UI\Icon\$icon_pet_0\icon_pet_0.txt" />
+    <None Include="Assets\UI\Icon\$icon_petskill_0\icon_petskill_0.txt" />
+    <None Include="Assets\UI\Icon\$icon_rogue_back\icon_rogue_back.txt" />
+    <None Include="Assets\UI\Icon\$icon_skill_magic\magic.txt" />
+    <None Include="Assets\UI\Icon\$icon_skill_minister\minister.txt" />
+    <None Include="Assets\UI\Icon\$icon_skill_rogue\rogue.txt" />
+    <None Include="Assets\UI\Icon\$icon_skill_warrior\warrior.txt" />
+    <None Include="Assets\UI\LevelUI\$Campaign_11\Campaign_11.txt" />
+    <None Include="Assets\UI\LevelUI\$Campaign_12\Campaign_12.txt" />
+    <None Include="Assets\UI\LevelUI\$Campaign_13\Campaign_13.txt" />
+    <None Include="Assets\UI\LevelUI\$Campaign_14\Campaign_14.txt" />
+    <None Include="Assets\UI\LevelUI\$Campaign_21\Campaign_21.txt" />
+    <None Include="Assets\UI\LevelUI\$Campaign_22\Campaign_22.txt" />
+    <None Include="Assets\UI\LevelUI\$Campaign_23\Campaign_23.txt" />
+    <None Include="Assets\UI\LevelUI\$Campaign_24\Campaign_24.txt" />
+    <None Include="Assets\UI\LevelUI\$LevelPrepare\LevelPrepare.txt" />
+    <None Include="Assets\UI\LoginUI\LoginUI.txt" />
+    <None Include="Assets\UI\LoginUI\LoginUI2.txt" />
+    <None Include="Assets\UI\NpcPortrait\$NpcPortrait1\NpcPortrait_1.txt" />
+    <None Include="Assets\UI\NpcPortrait\$NpcPortrait2\NpcPortrait_2.txt" />
+    <None Include="Assets\UI\NpcPortrait\$NpcPortrait3\NpcPortrait_3.txt" />
+    <None Include="Assets\UI\NpcPortrait\$NpcPortrait4\NpcPortrait_4.txt" />
+    <None Include="Assets\UI\NpcPortrait\$NpcPortrait5\NpcPortrait_5.txt" />
+    <None Include="Assets\UI\NpcPortrait\$NpcPortrait6\NpcPortrait_6.txt" />
+    <None Include="Assets\UI\PetSys\$petcard\petcard.txt" />
+    <None Include="Assets\UI\PetSys\$petframe\petframe.txt" />
+    <None Include="Assets\UI\PetSys\$petgrade\petgrade.txt" />
+    <None Include="Assets\UI\SelectChar\$CreateChar\CreateChar.txt" />
+    <None Include="Assets\UI\SelectChar\$SelectChar\SelectChar.txt" />
+    <None Include="Assets\UI\Shop\$petshop\petshop.txt" />
+    <None Include="Assets\UI\Shop\$shop\Shop.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2010\UnityVS.CSharp.targets" />
+</Project>
