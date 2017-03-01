@@ -1,0 +1,6 @@
+﻿BoxID,NeedScore,ItemId1,ItemNum1,Item1IfTips,ItemId2,ItemNum2,Item2IfTips,ItemId3,ItemNum3,Item3IfTips,ItemId4,ItemNum4,Item4IfTips
+1,10,100,50000,0,0,0,0,0,0,0,0,0,0
+2,30,100,100000,0,0,0,0,0,0,0,0,0,0
+3,50,101,30,0,0,0,0,0,0,0,0,0,0
+4,70,100,150000,0,0,0,0,0,0,0,0,0,0
+5,90,101,60,0,0,0,0,0,0,0,0,0,0

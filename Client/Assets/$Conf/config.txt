@@ -1,0 +1,4 @@
+﻿key,value
+buypvptimecost,20
+refreshpvp,1000
+mystertyshoprefreshcost,50

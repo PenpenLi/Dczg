@@ -1,0 +1,5 @@
+﻿id,name,1,2,3,4,5,6,7,8,9,10,11,12
+100,死亡,common_death_006,common_death_006,common_death_006,common_death_006,common_death_006,common_death_006,common_death_006,common_death_006,common_death_006,common_death_006,common_death_006,common_death_006
+101,休息,warrior_idle_01,,,$mage_idle_04,,,$ranger_idle_03,,,$cleric_idle_04,,
+102,受伤,knockslide01_004,knockslide01_004,knockslide01_004,knockslide01_004,knockslide01_004,knockslide01_004,knockslide01_004,knockslide01_004,knockslide01_004,knockslide01_004,knockslide01_004,knockslide01_004
+103,跑步,warrior_run_01,,,$mage_run_01,,,$ranger_run_04,,,$cleric_run_01,,

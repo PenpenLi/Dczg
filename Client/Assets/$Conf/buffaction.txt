@@ -1,0 +1,10 @@
+﻿dwTemplateID,strName,byShape,byDamegePro,byJob,dwCostSP,dwIgnoreAction,byTargetType,dwHitPer,dwCriticalPer,dwCriticalDmgPer,wAoeAimNum,nAoeArea,byAoeCenterType,nAoeCenterData,byAoeAreaType,nAoeAreaData,byIgnoreDef,dwIgnoreDefendAmount,dwDamagePer,naMoreDamagePer[MONSTER_BODY_TYPE_max],bySkillEffect,dwDirectDmgMin,dwDirectDmgMax,dwDmg[10],dwAtkPowerPer[10],sSkillEffect[8],Description,icon,ParentID,hitPoint,EffectAnchor,EffectStartTime,EffectFile,EffectLifeTime,SkillTimerTrigger,SkillTimerInterval,MoveSpeed,MoveBeginTime,MoveEndTime,RotateBeginTime,RotateEndTime,shakeCamera,AudioConf,AudioStartTime,ClassName,CastDistance,SelfEffect,SelfEffectLife,HitEffect,HitEffectLife,BreakState
+1,燃烧,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10000,0;0;0;0,0,0,0,0,2000,,每次造成相当于攻击力20%的火焰伤害。,,,,,,,,,,,,,,,,,,,,,,,,2
+2,刻印,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10000,0;0;0;0,0,0,0,0,2000,,每次造成相当于攻击力10%的雷电伤害。,,,,,,,,,,,,,,,,,,,,,,,,0
+3,刻印爆炸（非boss）,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10000,0;0;0;0,0,0,0,0,5000,,造成相当于攻击力200%的雷电伤害,,,,,,,,,,,,,,,,,,,,,,,,2
+4,刻印爆炸（boss）,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10000,0;0;0;0,0,0,0,0,10000,,造成相当于攻击力400%的雷电伤害,,,,,,,,,,,,,,,,,,,,,,,,2
+5,藤蔓缠绕,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10000,0;0;0;0,0,0,0,0,15000,,每次造成相当于攻击力150%的毒素伤害。,,,,,,,,,,,,,,,,,,,,,,,,2
+6,灼烧,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10000,0;0;0;0,0,0,0,0,2000,,每次造成相当于攻击力20%的火焰伤害。,,,,,,,,,,,,,,,,,,,,,,,,2
+7,流血,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10000,0;0;0;0,0,0,0,0,3000,,每次造成相当于攻击力30%的物理伤害,,,,,,,,,,,,,,,,,,,,,,,,2
+8,治愈之球伤害,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10000,0;0;0;0,0,0,0,0,3000,,造成相当于攻击力30%的雷电伤害,,,,,,,,,,,,,,,,,,,,,,,,2
+9,中毒,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10000,0;0;0;0,0,0,0,0,2000,,每次造成相当于攻击力20%的火焰伤害。,,,,,,,,,,,,,,,,,,,,,,,,2

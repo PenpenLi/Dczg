@@ -1,0 +1,9 @@
+﻿key,value
+WBEnterLevel,1
+WBInspireCostMoney,1000
+WBInspireCostCash,10
+WBInspireIncreasePercent,1000
+WBInspireMaxTimes,10
+WBBattleMaxTimes,1
+WBReliveCoolTime,60000
+WBReliveCostCash,5

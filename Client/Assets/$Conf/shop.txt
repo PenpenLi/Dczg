@@ -1,0 +1,7 @@
+﻿ID,Name,Badge,NonMoney
+1,potion,1,0
+2,relive,5,0
+10001,buffA,0,1000
+10002,buffB,0,1000
+10003,buffC,1,0
+10004,buffD,1,0

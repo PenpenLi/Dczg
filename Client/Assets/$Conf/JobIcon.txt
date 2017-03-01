@@ -1,0 +1,13 @@
+﻿Job,JobIcon,beijing,word,备注
+1,warrior,zs,zs,战士
+2,berserker,zs,kz,狂战
+3,knight,zs,qs,骑士
+4,magic,fs,fs,法师
+5,wizard,fs,ws,巫师
+6,warlock,fs,ss,术士
+7,rogue,yx,yx,游侠
+8,assassin,yx,ck,刺客
+9,gunner,yx,ps,炮手
+10,minister,ms,ms,牧师
+11,priest,ms,zj,主教
+12,pastor,ms,zm,战牧

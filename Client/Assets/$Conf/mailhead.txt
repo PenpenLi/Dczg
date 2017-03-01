@@ -1,0 +1,5 @@
+﻿id,headname,headtex
+1,哈扎丁,head1
+2,卡特莉娜,head2
+3,蕾安娜,head3
+4,吉列姆,head4

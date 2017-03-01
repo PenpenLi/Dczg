@@ -1,0 +1,2 @@
+﻿id,Str,Int,Dex,Sta,Fai,MaxHP,MaxSP,HPtick,SPtick,AtkDmgMin,AtkDmgMax,Def,Pierce,Hit,Dodge,Cri,Flex,CriDmg,CriDmgDef,IceAtt,FireAtt,PoisonAtt,ThunderAtt,IceDef,FireDef,PoisonDef,ThunderDef
+1,2000,20000,20000,80000,20000,400,0,0,0,5400,5400,560,20000,0,20000,20000,20000,200,200,5400,5400,5400,5400,560,560,560,560

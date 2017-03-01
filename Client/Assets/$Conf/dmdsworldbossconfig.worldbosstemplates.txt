@@ -1,0 +1,2 @@
+﻿TemplateID,LevelID,MonsterTemplateID,BossMaxHP,BossName,BossDes,BossTex,ChangeTimes,MaxTimes
+1001,100201,500102,265200,特林特,你不该来到这里！在这里，你会死无葬身之地！,$treant_prefab_UI,2,2

@@ -1,0 +1,5 @@
+﻿TemplateID,LevelID,LevelType,RecLvl,Tili
+1,100501,1,12,5
+2,100502,2,12,6
+3,100503,3,12,7
+

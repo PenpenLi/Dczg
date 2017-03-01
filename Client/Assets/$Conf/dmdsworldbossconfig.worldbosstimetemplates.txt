@@ -1,0 +1,8 @@
+﻿TemplateID,WeekDay,WorldBossTemplateIDs,BossTime.T1.Start.Hour,BossTime.T1.Start.Minute,BossTime.T1.End.Hour,BossTime.T1.End.Minute,BossTime.T2.Start.Hour,BossTime.T2.Start.Minute,BossTime.T2.End.Hour,BossTime.T2.End.Minute,BossTime.T3.Start.Hour,BossTime.T3.Start.Minute,BossTime.T3.End.Hour,BossTime.T3.End.Minute,BossTime.T4.Start.Hour,BossTime.T4.Start.Minute,BossTime.T4.End.Hour,BossTime.T4.End.Minute,BossTime.T5.Start.Hour,BossTime.T5.Start.Minute,BossTime.T5.End.Hour,BossTime.T5.End.Minute,BossTime.T6.Start.Hour,BossTime.T6.Start.Minute,BossTime.T6.End.Hour,BossTime.T6.End.Minute
+1,1,1001,12,0,12,15,15,0,15,15,18,0,18,15,21,0,21,15,0,0,0,0,0,0,0,0
+2,2,1001,12,0,12,15,15,0,15,15,18,0,18,15,21,0,21,15,0,0,0,0,0,0,0,0
+3,3,1001,12,0,12,15,15,0,15,15,18,0,18,15,21,0,21,15,0,0,0,0,0,0,0,0
+4,4,1001,12,0,12,15,15,0,15,15,18,0,18,15,21,0,21,15,0,0,0,0,0,0,0,0
+5,5,1001,12,0,12,15,15,0,15,15,18,0,18,15,21,0,21,15,0,0,0,0,0,0,0,0
+6,6,1001,12,0,12,15,15,0,15,15,18,0,18,15,21,0,21,15,0,0,0,0,0,0,0,0
+0,0,1001,12,0,12,15,15,0,15,15,18,0,18,15,21,0,21,15,0,0,0,0,0,0,0,0

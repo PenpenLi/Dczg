@@ -1,0 +1,4 @@
+﻿JobId,1,2,3,4,5
+101,Model/$kobold_elite/kobold_elite_mask@idle01.FBX,Model/$kobold_elite/kobold_elite_mask@walk01.FBX,Model/$kobold_elite/kobold_elite_mask@death01.FBX,Model/$kobold_elite/kobold_elite_mask@skill_attack01.FBX,
+102,Model/$orc_trainer/orc_trainer_idle01_016.FBX,Model/$orc_trainer/orc_trainer_walk01_010.FBX,Model/$orc_trainer/orc_trainer_death01_006.FBX,Model/$orc_trainer/orc_trainer_skill_attack01_006.FBX,
+104,Model/$orc_butcher/orc_butcher@idle01.FBX,Model/$orc_butcher/orc_butcher@walk01.FBX,Model/$orc_butcher/orc_butcher@death01.FBX,Model/$orc_butcher/orc_butcher@skill_attack01.FBX,

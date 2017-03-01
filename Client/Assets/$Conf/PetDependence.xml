@@ -1,0 +1,219 @@
+<DependenceInformation>
+  <Actor TemplateID="109">
+    <Resource Path="Music/pet_sound/$lion_warrior_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Music/pet_sound/$lion_warrior_bisha.wav" />
+    <Resource Path="Effect/MainChar/$Fx_baltor_hunter/Fx_baltor_hunter_skill02.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Fire_Hit_001.prefab" />
+  </Actor>
+  <Actor TemplateID="110">
+    <Resource Path="Music/pet_sound/$aliya_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$FX_baltor_kid_v_roka/FX_baltor_kid_v_roka_Fly.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_lighting_Hit_001.prefab" />
+    <Resource Path="Music/pet_sound/$stray_mage_bisha.wav" />
+    <Resource Path="Effect/MainChar/$FX_baltor_kid_v_roka/Fx_baltor_kid_v_roka_skill02.prefab" />
+  </Actor>
+  <Actor TemplateID="111">
+    <Resource Path="Music/pet_sound/$aliya_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$FX_baltor_kid_v_roka/FX_baltor_kid_v_roka_Fly.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_lighting_Hit_001.prefab" />
+  </Actor>
+  <Actor TemplateID="112">
+    <Resource Path="Music/pet_sound/$aliya_normal.wav" />
+    <Resource Path="Effect/MainChar/$Fx_human_yudit/Fx_Bingdan_001.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_human_yudit/Fx_Bingdan_Fly_aliya.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Ice_Hit_001.prefab" />
+  </Actor>
+  <Actor TemplateID="113">
+    <Resource Path="Music/pet_sound/$aliya_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Poison_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_elf_duo/Fx_elf_duo_Fly.prefab" />
+    <Resource Path="Music/pet_sound/$aliya_special.wav" />
+    <Resource Path="Effect/MainChar/$Fx_human_yudit/Fx_Jiaxue_001.prefab" />
+  </Actor>
+  <Actor TemplateID="114">
+    <Resource Path="Music/pet_sound/$aliya_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_baltor/Fx_Leiguangdan_Fly.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_lighting_Hit_001.prefab" />
+    <Resource Path="Music/pet_sound/$maid_bisha.wav" />
+    <Resource Path="Effect/MainChar/$Fx_elf_elecia/Fx_elf_elecia_skill02.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_elf_elecia/Fx_elf_elecia_skill02_b.prefab" />
+  </Actor>
+  <Actor TemplateID="115">
+    <Resource Path="Music/pet_sound/$hammer_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Music/pet_sound/$hammer_bisha.wav" />
+    <Resource Path="Effect/MainChar/$Fx_dwarf_bortan/Fx_dwarf_bortan_skill02.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_dwarf_bortan/Fx_dwarf_bortan_skill02_hit.prefab" />
+    <Resource Path="Effect/MainChar/$Buff/Fx_Hunmi_001.prefab" />
+  </Actor>
+  <Actor TemplateID="116">
+    <Resource Path="Music/pet_sound/$elf_female_normal.wav" />
+    <Resource Path="Effect/MainChar/$Fx_human_yudit/Fx_Bingdan_001.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_elf_mage_female/Fx_elf_mage_female_Fly.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Ice_Hit_001.prefab" />
+    <Resource Path="Music/pet_sound/$elf_female_bisha.wav" />
+    <Resource Path="Effect/MainChar/$Fx_elf_mage_female/Fx_elf_mage_female_bing.prefab" />
+  </Actor>
+  <Actor TemplateID="117">
+    <Resource Path="Music/pet_sound/$aliya_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$FX_elf_mage_female_v_benepika/Fx_benepika.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_002.prefab" />
+  </Actor>
+  <Actor TemplateID="118">
+    <Resource Path="Music/pet_sound/$dwarf_warrior_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+  </Actor>
+  <Actor TemplateID="119">
+    <Resource Path="Music/pet_sound/$dwarf_warrior_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+  </Actor>
+  <Actor TemplateID="120">
+    <Resource Path="Music/pet_sound/$dwarf_warrior_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+  </Actor>
+  <Actor TemplateID="121">
+    <Resource Path="Music/pet_sound/$fire_elf_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Mage/Fx_Huoqiu_Fly_001.prefab" />
+  </Actor>
+  <Actor TemplateID="122">
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_human_mage_trooper/Fx_human_mage_trooper_skill03.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_human_mage_trooper/Fx_human_mage_trooper_skill02.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_human_mage_trooper/Fx_human_mage_trooper_skill02_buf.prefab" />
+  </Actor>
+  <Actor TemplateID="123">
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_human_marina/Fx_mrina_fly.prefab" />
+  </Actor>
+  <Actor TemplateID="124">
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_baltor/Fx_Leiguangdan_Fly.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_lighting_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_human_mileton/Fx_Human_Mileton_Skill03.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_human_yudit/Fx_Jiaxue_001.prefab" />
+    <Resource Path="Effect/MainChar/$Buff/Fx_hudun_001.prefab" />
+  </Actor>
+  <Actor TemplateID="125">
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_human_warrior_v_tenan/human_warrior_v_tenan_skill03.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_human_warrior_v_tenan/Fx_tenan_fly.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Fire_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_human_warrior_v_tenan/human_warrior_v_tenan_skill02.prefab" />
+    <Resource Path="Effect/MainChar/$Buff/Fx_Hunmi_001.prefab" />
+  </Actor>
+  <Actor TemplateID="126">
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_human_rodyn/Fx_rodyn_fly.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Fire_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_human_rodyn/Fx_human_rodyn_skill02.prefab" />
+  </Actor>
+  <Actor TemplateID="127" />
+  <Actor TemplateID="128" />
+  <Actor TemplateID="129">
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+  </Actor>
+  <Actor TemplateID="130">
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_ivyflower/Fx_ivyflower_fly.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Poison_Hit_001.prefab" />
+  </Actor>
+  <Actor TemplateID="135" />
+  <Actor TemplateID="136" />
+  <Actor TemplateID="137" />
+  <Actor TemplateID="138" />
+  <Actor TemplateID="931">
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_baltor/Fx_Leiguangdan_Fly.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_lighting_Hit_001.prefab" />
+  </Actor>
+  <Actor TemplateID="932">
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_baltor/Fx_Leiguangdan_Fly.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_lighting_Hit_001.prefab" />
+  </Actor>
+  <Actor TemplateID="933">
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_baltor/Fx_Leiguangdan_Fly.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_lighting_Hit_001.prefab" />
+  </Actor>
+  <Actor TemplateID="934">
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_baltor/Fx_Leiguangdan_Fly.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_lighting_Hit_001.prefab" />
+  </Actor>
+  <Actor TemplateID="101">
+    <Resource Path="Music/pet_sound/$dwarf_warrior_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Music/pet_sound/$dwarf_warrior_bisha.wav" />
+    <Resource Path="Effect/MainChar/$Fx_Dwarf_Warrior_Battle/Fx_Zuihoufanji_001.prefab" />
+    <Resource Path="Music/pet_sound/$dwarf_warrior_special.wav" />
+  </Actor>
+  <Actor TemplateID="102">
+    <Resource Path="Music/pet_sound/$flower_elf_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Poison_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_Etc_Dryas/Fx_Xiaoxingxuanfeng_Fly.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Music/pet_sound/$flower_elf_bisha.wav" />
+    <Resource Path="Effect/MainChar/$Fx_Etc_Dryas/Fx_Damantengshu_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_Etc_Dryas/Fx_etc_dryas_skill02_hit.prefab" />
+    <Resource Path="Music/pet_sound/$flower_elf_special.wav" />
+  </Actor>
+  <Actor TemplateID="103">
+    <Resource Path="Music/pet_sound/$aliya_normal.wav" />
+    <Resource Path="Effect/MainChar/$Fx_human_yudit/Fx_Bingdan_001.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_human_yudit/Fx_Bingdan_Fly_aliya.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Ice_Hit_001.prefab" />
+    <Resource Path="Music/pet_sound/$aliya_bisha.wav" />
+    <Resource Path="Effect/MainChar/$Fx_human_yudit/Fx_Jiaxue_Qunti_002.prefab" />
+    <Resource Path="Music/pet_sound/$aliya_special.wav" />
+    <Resource Path="Effect/MainChar/$Fx_human_yudit/Fx_Jiaxue_001.prefab" />
+  </Actor>
+  <Actor TemplateID="104">
+    <Resource Path="Music/pet_sound/$jiutong_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_dwarf_warrior_v_anunt/Fx_Beizi_Fly_Small.prefab" />
+    <Resource Path="Music/pet_sound/$jiutong_bisha.wav" />
+    <Resource Path="Effect/MainChar/$Fx_dwarf_warrior_v_anunt/Fx_Beizi_Fly_Big.prefab" />
+    <Resource Path="Music/pet_sound/$jiutong_special.wav" />
+    <Resource Path="Effect/MainChar/$Fx_dwarf_warrior_v_anunt/Fx_Qipao_001.prefab" />
+  </Actor>
+  <Actor TemplateID="105">
+    <Resource Path="Music/pet_sound/$aliya_normal.wav" />
+    <Resource Path="Effect/MainChar/$Fx_baltor/Fx_Leiguangdan_001.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_baltor/Fx_Leiguangdan_Fly.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_lighting_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_baltor/Fx_Shengguangfazhen.prefab" />
+  </Actor>
+  <Actor TemplateID="106">
+    <Resource Path="Music/pet_sound/$aliya_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_baltor_kid/Fx_Qigongdan_Fly.prefab" />
+    <Resource Path="Music/pet_sound/$small_yellow_bisha.wav" />
+    <Resource Path="Effect/MainChar/$Fx_baltor_kid/Fx_Qigongbo_001.prefab" />
+  </Actor>
+  <Actor TemplateID="107">
+    <Resource Path="Music/pet_sound/$dwarf_shooter_normal.wav" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Fx_dwarf_warrior_v_bergtol/Fx_Huojian_Fly.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Fire_Hit_001.prefab" />
+    <Resource Path="Music/pet_sound/$dwarf_shooter_bisha.wav" />
+  </Actor>
+  <Actor TemplateID="108">
+    <Resource Path="Music/pet_sound/$fire_elf_normal.wav" />
+    <Resource Path="Effect/MainChar/$Fx_elf_elia/Fx_Penhuo_001.prefab" />
+    <Resource Path="Effect/MainChar/$Hit_Effect/Fx_Hit_001.prefab" />
+    <Resource Path="Effect/MainChar/$Buff/Fx_Ranshao_001.prefab" />
+    <Resource Path="Music/pet_sound/$fire_elf_bisha.wav" />
+    <Resource Path="Effect/MainChar/$Fx_elf_elia/Fx_Chiyanhuoyu_001.prefab" />
+  </Actor>
+</DependenceInformation>

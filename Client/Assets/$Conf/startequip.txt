@@ -1,0 +1,11 @@
+﻿Id,NeedJob,NeedSex,Character,Filename,FilePart,Dummy
+3,0,0,1,Model/Mdl_mainChar_0/$base_hero/base_hero.fbx,face,
+4,0,0,2,Model/Mdl_mainChar_0/$base_hero/base_hero.fbx,upper,
+5,0,0,3,Model/Mdl_mainChar_0/$base_hero/base_hero.fbx,hands,
+6,0,0,4,Model/Mdl_mainChar_0/$base_hero/base_hero.fbx,lower,
+7,0,0,5,Model/Mdl_mainChar_0/$base_hero/base_hero.fbx,upperback,
+13,0,1,1,Model/Mdl_mainChar_1/$base_heroine/base_heroine.fbx,face,
+14,0,1,2,Model/Mdl_mainChar_1/$base_heroine/base_heroine.fbx,upper,
+15,0,1,3,Model/Mdl_mainChar_1/$base_heroine/base_heroine.fbx,hands,
+16,0,1,4,Model/Mdl_mainChar_1/$base_heroine/base_heroine.fbx,lower,
+17,0,1,5,Model/Mdl_mainChar_1/$base_heroine/base_heroine.fbx,upperback,

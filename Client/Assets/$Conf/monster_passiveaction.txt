@@ -1,0 +1,4 @@
+﻿JobId,100,101,102,103
+101,death01,idle01,death01,walk01
+102,death01,idle01,death01,walk01
+104,death01,idle01,death01,walk01

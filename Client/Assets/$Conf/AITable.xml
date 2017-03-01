@@ -1,0 +1,1617 @@
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<AITable>
+	<AIEventRootNode id="10000" name="AI示例">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="1026" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AITrigger id="103" usage="3" param1="5000" param2="10001"/>
+			<AIAction id="5" delay="0" count="5" interval="10000" param1="1026" param2="1"/>
+			<AIState id="4" param1="0" param2="-1" param3="10000" param4="10000" param5="3001" param6="10000"/>
+			<AIEvent id="0" maxtickcount="-1">
+				<AITrigger id="4" usage="3" param1="0" param2="7500"/>
+				<AIAction id="2" delay="0" count="2" interval="10000" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+		<AIEventNode id="3" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AITrigger id="103" usage="3" param1="0" param2="5000"/>
+			<AIAction id="4" delay="0" count="5" interval="5000" param1="10000" param2="3001;3002" param3="5000;5000" param4="1"/>
+			<AIState id="5" param1="0" param2="-1" param3="10000" param4="1026" param5="0"/>
+			<AIState id="2" param1="0" param2="-1" param3="10000" param4="AreaTrigger1"/>
+			<AIEvent id="0" maxtickcount="5">
+				<AITrigger id="5" usage="3" param1="500"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="90001" name="AI示例-昆昆">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIEvent id="21" maxtickcount="1">
+				<AITrigger id="105" usage="3" param1="0" param2="20000" param3="20000"/>		
+				<AIState id="4" param1="3000" param2="-1" param3="4000" param4="10000" param5="3075" param6="10000" param7="0"/>								
+			</AIEvent>
+			<AIEvent id="22" maxtickcount="-1">
+				<AITrigger id="105" usage="3" param1="20000" param2="20000" param3="20000"/>
+				<AIState id="101" param1="0" param2="1001"/>
+				<AIState id="103" param1="0" param2="skill03"/>
+				<AIState id="104" param1="1500" param2="NoMonster"/>
+				<AIState id="105" param1="1500"/>
+				<AIState id="102" param1="1500" param2="kunkun_body"/>
+				<AIState id="102" param1="1500" param2="kunkun_mud"/>
+				<AIState id="102" param1="1500" param2="kunkun_shell"/>
+				<AIState id="102" param1="1500" param2="Object01"/>
+				<AIState id="102" param1="1500" param2="Object02"/>	
+				<AIState id="102" param1="1500" param2="Fx_Shadow_Mesh"/>	
+				<AIState id="4" param1="3000" param2="-1" param3="4000" param4="10000" param5="3076" param6="10000" param7="0"/>								
+			</AIEvent>
+			<AIEvent id="23" maxtickcount="-1">
+				<AITrigger id="105" usage="3" param1="40000" param2="20000" param3="20000"/>
+				<AIState id="103" param1="0" param2="skill04"/>					
+				<AIState id="4" param1="3000" param2="-1" param3="4000" param4="10000" param5="3075" param6="10000" param7="0"/>				
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10001" name="兽人掠夺者BOSS（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3001" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10002" name="兽人掠夺者（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="1000" param2="-1" param3="5000" param4="10000" param5="3001" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10003" name="豺狼人侦察兵（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7500"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3020" param3="10000" param4="1"/>
+				<AIAction id="4" delay="300" count="1" interval="0" param1="10000" param2="3014" param3="10000" param4="1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3020" param3="10000" param4="1"/>
+				<AIAction id="4" delay="300" count="1" interval="0" param1="10000" param2="3014" param3="10000" param4="1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="2500"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3020" param3="10000" param4="1"/>
+				<AIAction id="4" delay="300" count="1" interval="0" param1="10000" param2="3014" param3="10000" param4="1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10004" name="地精炸弹技术者（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7500"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3020" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3020" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="2500"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3020" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10005" name="地精监视兵（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3024" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7500"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3020" param3="10000" param4="1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3020" param3="10000" param4="1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="2500"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3020" param3="10000" param4="1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10006" name="兽人工头（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3025" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10007" name="狂暴者佐隆（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3013" param6="10000" param7="1"/>
+			<AIState id="4" param1="7000" param2="-1" param3="20000" param4="10000" param5="3026" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10008" name="特林特（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3027" param6="10000" param7="1"/>
+			<AIState id="4" param1="7000" param2="-1" param3="20000" param4="10000" param5="3028" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10009" name="小恶魔（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3029" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7500"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="2500"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10010" name="兽人精灵术士（关卡BOSS）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="8000" param4="10000" param5="3002" param6="10000" param7="1"/>
+			<AIState id="2" param1="20000" param2="-1" param3="20000" param4="AreaTrigger1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10011" name="兽人精灵术士（关卡普通）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="1000" param2="-1" param3="8000" param4="10000" param5="3002" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10012" name="岩石巨人（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3003;3030" param6="5000;5000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3031" param3="10000" param4="1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10013" name="古代岩石巨人（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3017;3018" param6="5000;5000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3019" param3="10000" param4="1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3019" param3="10000" param4="1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="1000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3019" param3="10000" param4="1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10014" name="兽人突击兵（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3001" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7500"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3032" param3="10000" param4="1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3032" param3="10000" param4="1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="2500"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3032" param3="10000" param4="1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10015" name="食人魔勇士（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3025" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7500"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3033" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3033" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="2500"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3033" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10016" name="守门将克列加尔（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3005" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7500"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="2500"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10017" name="守门将贝格尔（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7500"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="2500"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10018" name="守门将卡斯帕（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="5000" param4="10000" param5="3011" param6="10000" param7="1"/>
+			<AIState id="4" param1="7000" param2="-1" param3="15000" param4="10000" param5="3034" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7500"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="2500"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10019" name="独眼龙托尔波（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEvent id="0" maxtickcount="1">
+			<AITrigger id="4" usage="3" param1="0" param2="5100"/>
+			<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3009" param3="10000" param4="1"/>
+		</AIEvent>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AITrigger id="103" usage="3" param1="5000" param2="10001"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3007;3008" param6="5000;5000" param7="1"/>
+		</AIEventNode>
+		<AIEventNode id="3" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AITrigger id="103" usage="3" param1="0" param2="5000"/>
+			<AIState id="4" param1="5000" param2="-1" param3="10000" param4="10000" param5="3035;3036" param6="5000;5000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10020" name="百发百中的赛波（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3014" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7500"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3020" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3020" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="2500"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3020" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10021" name="刽子手贝克塔鲁（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3005" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="1000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10022" name="兽人百夫长（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="1000" param2="-1" param3="10000" param4="10000" param5="3005" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10023" name="学徒阿尔贝托（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="8000" param4="10000" param5="3002" param6="10000" param7="1"/>
+			<AIState id="2" param1="20000" param2="-1" param3="20000" param4="AreaTrigger1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10024" name="黑魔法师凯尔伯勒（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AITrigger id="103" usage="3" param1="7500" param2="10001"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3037;3041" param6="5000;5000" param7="1"/>
+		</AIEventNode>
+		<AIEventNode id="3" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AITrigger id="103" usage="3" param1="5000" param2="7500"/>
+			<AIState id="4" param1="5000" param2="-1" param3="8000" param4="10000" param5="3037;3038" param6="5000;5000" param7="1"/>
+		</AIEventNode>
+		<AIEventNode id="4" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AITrigger id="103" usage="3" param1="2500" param2="5000"/>
+			<AIState id="4" param1="5000" param2="-1" param3="8000" param4="10000" param5="3037;3038" param6="5000;5000" param7="1"/>
+		</AIEventNode>
+		<AIEventNode id="5" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AITrigger id="103" usage="3" param1="0" param2="2500"/>
+			<AIState id="4" param1="5000" param2="-1" param3="8000" param4="10000" param5="3040" param6="10000" param7="1"/>
+		</AIEventNode>
+		<AIEvent id="0" maxtickcount="1">
+			<AITrigger id="4" usage="3" param1="0" param2="7600"/>
+			<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3039" param3="10000"/>
+			<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+		</AIEvent>
+		<AIEvent id="0" maxtickcount="1">
+			<AITrigger id="4" usage="3" param1="0" param2="5100"/>
+			<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3039" param3="10000"/>
+			<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+		</AIEvent>
+		<AIEvent id="0" maxtickcount="1">
+			<AITrigger id="4" usage="3" param1="0" param2="2600"/>
+			<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3039" param3="10000"/>
+			<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger2"/>
+		</AIEvent>
+	</AIEventRootNode>
+	<AIEventRootNode id="10025" name="小妖精密探（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3049" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3056" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3056" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="1000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3056" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10026" name="铁螳螂怪（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3048" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="1000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10027" name="深红藤蔓花（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="6000" param4="10000" param5="3058" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3050" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3050" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="1000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3050" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10028" name="巨爪巴布（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="8000" param4="10000" param5="3059;3060" param6="5000;5000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="8000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="6000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="2000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10029" name="巨大甲壳虫（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3047" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="1000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10030" name="大型女王蚂蚁（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3052" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7500"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="2500"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10031" name="深红螳螂怪（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="6000" param5="3048" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10032" name="昆昆幼虫（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3057" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="1000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10033" name="小蜥蜴王Boss（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3053" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="1000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10034" name="不屈之沙基安（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3054" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="1000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10035" name="惩罚之沙基安（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3055" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="1000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10036" name="守门人雷加斯（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="10000" param2="-1" param3="10000" param4="10000" param5="3061" param6="10000" param7="1"/>
+			<AIState id="2" param1="10000" param2="-1" param3="10000" param4="AreaTrigger1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10037" name="堕落之沙基安（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="12000" param2="-1" param3="10000" param4="12000" param5="3054" param6="10000" param7="1"/>
+			<AIState id="4" param1="15000" param2="-1" param3="10000" param4="12000" param5="3070" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10038" name="魔法沙基安boss（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3072" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="1000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10039" name="惩罚之沙基安boss（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="12000" param2="-1" param3="10000" param4="12000" param5="3055" param6="10000" param7="1"/>
+			<AIState id="4" param1="15000" param2="-1" param3="10000" param4="12000" param5="3071" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="1000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10040" name="堕落守护者（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="12000" param2="-1" param3="12000" param4="10000" param5="3063" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="1000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10041" name="甲虫傀儡（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="10000" param2="-1" param3="10000" param4="10000" param5="3061" param6="10000" param7="1"/>
+			<AIState id="2" param1="10000" param2="-1" param3="10000" param4="AreaTrigger1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10042" name="女王拉巴蒂（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="10000" param2="-1" param3="10000" param4="10000" param5="3065;3067;3069" param6="3500;3500;3000" param7="1"/>
+			<AIState id="4" param1="15000" param2="-1" param3="20000" param4="10000" param5="3068" param6="10000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3064" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3064" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="1000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3064" param3="10000"/>
+				<AIAction id="2" delay="0" count="1" interval="0" param1="AreaTrigger1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10043" name="卵巢（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="2" param1="430" param2="-1" param3="5000" param4="AreaTrigger2"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10044" name="被召唤的毒爆虫（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+				<AIAction id="4" delay="4000" count="1" interval="0" param1="10000" param2="3062" param3="10000"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="10045" name="昆昆（关卡）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="1104" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIEvent id="21" maxtickcount="1">
+				<AITrigger id="105" usage="3" param1="0" param2="24000" param3="35000"/>		
+				<AIState id="4" param1="15000" param2="-1" param3="15000" param4="10000" param5="3075;3079;3080" param6="3500;3500;3000" param7="0"/>
+			</AIEvent>
+			<AIEvent id="22" maxtickcount="-1">
+				<AITrigger id="105" usage="3" param1="35000" param2="35000" param3="24000"/>
+				<AIState id="101" param1="0" param2="1001"/>
+				<AIState id="103" param1="0" param2="skill03"/>
+				<AIState id="107" param1="0" param2="100"/>
+				<AIState id="104" param1="1500" param2="NoMonster"/>
+				<AIState id="105" param1="1500"/>
+				<AIState id="102" param1="1500" param2="kunkun_body"/>
+				<AIState id="102" param1="1500" param2="kunkun_mud"/>
+				<AIState id="102" param1="1500" param2="kunkun_shell"/>
+				<AIState id="102" param1="1500" param2="Object01"/>
+				<AIState id="102" param1="1500" param2="Object02"/>	
+				<AIState id="102" param1="1500" param2="Fx_Shadow_Mesh"/>	
+				<AIState id="4" param1="8000" param2="2" param3="8000" param4="10000" param5="3076" param6="10000" param7="0"/>
+				<AIAction id="2" delay="1000" count="1" interval="0" param1="AreaTrigger1"/>
+				<AIAction id="4" delay="23500" count="1" interval="0" param1="10000" param2="3074" param3="10000"/>
+				<AIState id="103" param1="23500" param2="skill04"/>
+			</AIEvent>
+			<AIEvent id="23" maxtickcount="-1">
+				<AITrigger id="105" usage="3" param1="59000" param2="24000" param3="35000"/>
+				<AIState id="4" param1="15000" param2="-1" param3="15000" param4="10000" param5="3075;3079;3080" param6="3500;3500;3000" param7="0"/>			
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="20001" name="狂暴者佐隆（活动-地城深渊）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="20000" param2="-1" param3="20000" param4="10000" param5="3043" param6="10000"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3013" param6="10000" param7="1"/>
+			<AIState id="4" param1="7000" param2="-1" param3="20000" param4="10000" param5="3026" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="20002" name="特林特（活动-地城深渊）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="20000" param2="-1" param3="20000" param4="10000" param5="3044" param6="10000"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3027" param6="10000" param7="1"/>
+			<AIState id="4" param1="7000" param2="-1" param3="20000" param4="10000" param5="3028" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="20003" name="古代岩石巨人（活动-地城深渊）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="20000" param2="-1" param3="20000" param4="10000" param5="3045" param6="10000"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3017;3018" param6="5000;5000" param7="1"/>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="7000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3019" param3="10000" param4="1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="4000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3019" param3="10000" param4="1"/>
+			</AIEvent>
+			<AIEvent id="0" maxtickcount="1">
+				<AITrigger id="4" usage="3" param1="0" param2="1000"/>
+				<AIAction id="4" delay="0" count="1" interval="0" param1="10000" param2="3019" param3="10000" param4="1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="20004" name="守门将克列加尔（活动-地城深渊）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="20000" param2="-1" param3="20000" param4="10000" param5="3046" param6="10000"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3005" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="20005" name="独眼龙托尔波（活动-地城深渊）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="20000" param2="-1" param3="20000" param4="10000" param5="3023" param6="10000"/>
+			<AIState id="4" param1="2000" param2="-1" param3="6000" param4="10000" param5="3021;3022" param6="5000;5000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30001" name="矮人狂战士">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20002" param2="0"/>
+		<AIEvent id="0" maxtickcount="1">
+			<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+			<AIAction id="5" delay="0" count="1" interval="0" param1="20001" param2="0"/>
+		</AIEvent>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="0" param2="-1" param3="13000" param4="10000" param5="7001" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30002" name="小花仙">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20003" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20004" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="7002" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30003" name="小艾丽娅">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20005" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20006" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="15000" param4="10000" param5="7003" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30004" name="酒桶">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20007" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20008" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="25000" param4="10000" param5="7004" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30005" name="圣光主祭">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20009" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20010" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30006" name="流浪武士">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20011" param2="0"/>
+		<AIEvent id="0" maxtickcount="1">
+			<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+			<AIAction id="5" delay="0" count="1" interval="0" param1="20012" param2="0"/>
+		</AIEvent>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30007" name="矮人神射手">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20013" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20014" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30008" name="圣火妖姬">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIEvent id="0" maxtickcount="-1">
+				<AITrigger id="5" usage="3" param1="1000"/>
+				<AIAction id="5" delay="0" count="1" interval="0" param1="20015" param2="1"/>
+			</AIEvent>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30009" name="狮心勇士">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20017" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20018" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30010" name="流浪法师">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20019" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20020" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30011" name="黑狮萨满">
+		<AITrigger id="101" usage="13"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30012" name="玄冰法师">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20021" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30013" name="绿衣">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="15000" param4="10000" param5="7005" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30014" name="玲珑侍女">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20022" param2="0"/>
+		<AIEvent id="0" maxtickcount="1">
+			<AITrigger id="4" usage="3" param1="0" param2="3000"/>
+			<AIAction id="5" delay="0" count="1" interval="0" param1="20023" param2="0"/>
+		</AIEvent>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30015" name="铁锤">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20024" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20025" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30016" name="艾尔蕾雅">
+		<AITrigger id="101" usage="3"/>
+		<AIEvent id="0" maxtickcount="1">
+			<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+			<AIAction id="5" delay="0" count="1" interval="0" param1="20027" param2="0"/>
+		</AIEvent>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30017" name="美食家温妮">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30018" name="低级侍卫">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30019" name="豆豆">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30020" name="中级侍卫">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20029" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30021" name="火焰法师">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20019" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30022" name="暗影">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20030" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="1500" param2="-1" param3="13000" param4="10000" param5="7006" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30023" name="玛丽娜">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20032" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20033" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="1500" param2="-1" param3="10000" param4="10000" param5="7007" param6="10000" param7="0"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30024" name="米勒大叔">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20034" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20035" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="1500" param2="-1" param3="15000" param4="10000" param5="7008" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30025" name="佩恩">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20036" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20037" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="3000" param2="-1" param3="10000" param4="10000" param5="7009" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="30026" name="秀逗魔术师">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20038" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20039" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="1500" param2="-1" param3="8000" param4="10000" param5="7010" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40001" name="矮人狂战士（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20002" param2="0"/>
+		<AIEvent id="0" maxtickcount="1">
+			<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+			<AIAction id="5" delay="0" count="1" interval="0" param1="20001" param2="0"/>
+		</AIEvent>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="0" param2="-1" param3="13000" param4="10000" param5="7001" param6="10000" param7="1"/>
+			<AIState id="6" param1="0" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40002" name="小花仙（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20003" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20004" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="7002" param6="10000" param7="1"/>
+			<AIState id="6" param1="0" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40003" name="小艾丽娅（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20005" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20006" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="15000" param4="10000" param5="7003" param6="10000" param7="1"/>
+			<AIState id="6" param1="0" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40004" name="酒桶（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20007" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20008" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="25000" param4="10000" param5="7004" param6="10000" param7="1"/>
+			<AIState id="6" param1="0" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40005" name="圣光主祭（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20009" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20010" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="6" param1="1000" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40006" name="流浪武士（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20011" param2="0"/>
+		<AIEvent id="0" maxtickcount="1">
+			<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+			<AIAction id="5" delay="0" count="1" interval="0" param1="20012" param2="0"/>
+		</AIEvent>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="6" param1="1000" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40007" name="矮人神射手（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20013" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20014" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="6" param1="1000" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40008" name="圣火妖姬（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIEvent id="0" maxtickcount="-1">
+				<AITrigger id="5" usage="3" param1="1000"/>
+				<AIAction id="5" delay="0" count="1" interval="0" param1="20015" param2="1"/>
+			</AIEvent>
+			<AIState id="6" param1="1000" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40009" name="狮心勇士（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20017" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20018" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="6" param1="1000" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40010" name="流浪法师（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20019" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20020" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="6" param1="1000" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40011" name="黑狮萨满（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40012" name="玄冰法师（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20021" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40013" name="绿衣（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="15000" param4="10000" param5="7005" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40014" name="玲珑侍女（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20022" param2="0"/>
+		<AIEvent id="0" maxtickcount="1">
+			<AITrigger id="4" usage="3" param1="0" param2="3000"/>
+			<AIAction id="5" delay="0" count="1" interval="0" param1="20023" param2="0"/>
+		</AIEvent>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="6" param1="1000" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40015" name="铁锤（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20024" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20025" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="6" param1="1000" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40016" name="艾尔蕾雅（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIEvent id="0" maxtickcount="1">
+			<AITrigger id="4" usage="3" param1="0" param2="5000"/>
+			<AIAction id="5" delay="0" count="1" interval="0" param1="20027" param2="0"/>
+		</AIEvent>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="6" param1="1000" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40017" name="美食家温妮（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40018" name="低级侍卫（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40019" name="豆豆（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40020" name="中级侍卫（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20029" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40021" name="火焰法师（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20019" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40022" name="暗影（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20030" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="1500" param2="-1" param3="13000" param4="10000" param5="7006" param6="10000" param7="1"/>
+			<AIState id="6" param1="1000" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40023" name="玛丽娜（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20032" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20033" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="1500" param2="-1" param3="10000" param4="10000" param5="7007" param6="10000" param7="1"/>
+			<AIState id="6" param1="1000" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40024" name="米勒大叔（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20034" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20035" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="1500" param2="-1" param3="15000" param4="10000" param5="7008" param6="10000" param7="1"/>
+			<AIState id="6" param1="1000" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40025" name="佩恩（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20036" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20037" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="3000" param2="-1" param3="10000" param4="10000" param5="7009" param6="10000" param7="1"/>
+			<AIState id="6" param1="1000" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="40026" name="秀逗魔术师（好友）">
+		<AITrigger id="101" usage="3"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20038" param2="0"/>
+		<AIAction id="5" delay="0" count="1" interval="0" param1="20039" param2="0"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="1500" param2="-1" param3="8000" param4="10000" param5="7010" param6="10000" param7="1"/>
+			<AIState id="6" param1="1000" param2="-1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+	<AIEventRootNode id="80001" name="巨爪巴布（测试）">
+		<AITrigger id="101" usage="3"/>
+		<AIEventNode id="1" maxtickcount="-1">
+			<AITrigger id="104" usage="3"/>
+		</AIEventNode>
+		<AIEventNode id="2" maxtickcount="-1">
+			<AITrigger id="102" usage="3"/>
+			<AIState id="4" param1="2000" param2="-1" param3="10000" param4="10000" param5="3059" param6="10000" param7="1"/>
+			<AIState id="4" param1="7000" param2="-1" param3="10000" param4="10000" param5="3060" param6="10000" param7="1"/>
+		</AIEventNode>
+	</AIEventRootNode>
+</AITable>
